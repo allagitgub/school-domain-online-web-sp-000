@@ -31,6 +31,6 @@ class School
         roster[key] = value.sort
       end
     end
-    puts roaster
+    puts roster
   end
 end
