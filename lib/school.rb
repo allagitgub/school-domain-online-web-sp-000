@@ -28,10 +28,9 @@ class School
     roster.sort.to_h
     roster.each do |key, value|
       if(value != nil)
-        value.sort
+        roster[key] = value.sort
       end
     end
-    roster
   end
 
 
