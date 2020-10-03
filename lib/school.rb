@@ -26,14 +26,14 @@ class School
 
   def sort
 
-    roster.sort.to_h
+    
 
-    #roster.each do |value|
-    #  student_array = roster[value]
-    #  if(student_array != nil)
-    #    student_array.sort
-    #  end
-    #end
+    roster.sort.to_h.each do |value|
+      student_array = roster[value]
+      if(student_array != nil)
+        student_array.sort
+      end
+    end
   end
 
 
