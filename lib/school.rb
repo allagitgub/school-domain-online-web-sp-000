@@ -27,7 +27,6 @@ class School
   def sort
 
     roster.sort.to_h
-    end
 
     #roster.each do |value|
     #  student_array = roster[value]
