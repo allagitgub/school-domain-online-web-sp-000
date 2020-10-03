@@ -29,7 +29,7 @@ class School
 
 
     roster.sort.to_h.keys.each do |key|
-      student_array = roster[value]
+      student_array = roster[key]
       if(student_array != nil)
         student_array.sort
       end
