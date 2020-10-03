@@ -30,6 +30,7 @@ class School
         roster[key] = value.sort
       end
     end
+    roster.sort.to_h
     puts roster
     roster.sort.to_h
   end
