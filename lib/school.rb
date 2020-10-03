@@ -34,6 +34,7 @@ class School
         student_array.sort
       end
     end
+    roster
   end
 
 
