@@ -26,13 +26,7 @@ class School
 
   def sort
     roster.sort.to_h
-    roster.keys.each do |key|
-      student_array = roster[key]
-      if(student_array != nil)
-        student_array.sort
-      end
-    end
-    roster
+    
   end
 
 
