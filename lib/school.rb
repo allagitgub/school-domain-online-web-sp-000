@@ -26,9 +26,9 @@ class School
 
   def sort
 
-    
 
-    roster.sort.to_h.each do |value|
+
+    roster.sort.to_h.keys.each do |key|
       student_array = roster[value]
       if(student_array != nil)
         student_array.sort
