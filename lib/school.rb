@@ -31,7 +31,7 @@ class School
       end
     end
     roster.sort.to_h
-    puts roster
+    puts roster.sort.to_h
     roster
   end
 end
